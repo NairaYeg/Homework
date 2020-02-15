@@ -110,4 +110,28 @@ if (angle === Angle1 ) {
         alert (res2)
      }
   } 
- 
+  // task4
+
+let x= +prompt("")
+let y= +prompt("")
+let z= +prompt("")
+
+if (x>y && y>z && x>z){
+  let res = [ z, y, x]
+   alert(res)
+} if (x>y && y<z && x>z) {
+  let res1 = [y, z , x]
+  alert(res1)
+} if (y>x && y>z && x>z) {
+  let res2 = [z, x , y]
+  alert(res2)
+} if (y>x && y>z && x<z) {
+  let res3 = [x, z, y]
+  alert(res3)
+} if (z>x && z>y && x>y) {
+  let res4 = [y, x, z]
+  alert(res4)
+} if (z>x && z>y && x<y) {
+  let res5 = [x, y, z]
+  alert(res5)
+} 
